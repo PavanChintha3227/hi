@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <style>
+            body{
+                font-family: 'sono',sans-serif;
+            }
+            .div1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                gap:50px;
+
+            }
+            .div2{
+                background-color: rgb(233, 223, 223);
+                padding: 5px;
+                border-radius: 30px;
+                text-align: center;
+                flex:1;
+                max-width:400px;
+            }
+            .basic{
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 10px;;
+            }
+            .months{
+                font-size: 40px;
+                font-weight: bold;
+            }
+            li{
+                list-style: none;
+               
+            }
+            ul>li{
+                margin-bottom: 10px;
+            }
+            button{
+                background-color:rgb(233, 26, 140);
+                padding: 8px;
+                border: none;
+                border-radius: 10px;
+            }
+            @media(max-width:1580px){
+                .div1{
+                    flex-direction: column;
+                    height:100%;
+                }
+            }
+        </style>
+        
+    </head>
+</html>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <div class="basic">Basic</div>
+                <div class="months">10 months</div>
+                    <ul>
+                        <li>➡️10 GB Storage</li>
+                        <li>➡️5 Users</li>
+                        <li>🚫support</li>
+                    </ul>
+                        <button> sign up</button>
+        </div>
+        <div class="div2">
+            <div class="basic">Basic</div>
+                <div class="months">10 months</div>
+                    <ul>
+                        <li>➡️50 GB Storage</li>
+                        <li>➡️10 Users</li>
+                        <li>🚫support</li>
+                    </ul>
+                        <button> sign up</button>
+        </div>
+        <div class="div2">
+            <div class="basic">Basic</div>   
+                <div class="months">10 months</div>    
+                    <ul>
+                        <li>➡️100 GB Storage</li>
+                        <li>➡️50 Users</li>
+                        <li>🚫support</li>
+                    </ul>
+                        <button> sign up</button>
+        </div>
+        </div>
+</body>
+</html>
